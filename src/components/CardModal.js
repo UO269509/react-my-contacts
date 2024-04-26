@@ -18,13 +18,6 @@ const CardModal = ({ contact }) => {
                 <h2 className="tc">{contact.name.title + " " + contact.name.first + " " +
                     contact.name.last}</h2>
                 <div className="dib mr5">
-                    <MapContainer center={[contact.location.coordinates.latitude,
-                    contact.location.coordinates.longitude]} zoom={12}>
-                        <TileLayer
-                            url="https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png"
-                        />
-                    </MapContainer>
-
                     <img alt='{contact.picture.large}' src={contact.picture.large} />
                     <p>Gender: {contact.gender}</p>
                     <p>City: {contact.location.city}, {contact.location.state}
@@ -38,6 +31,12 @@ const CardModal = ({ contact }) => {
                     <p><AiFillMobile /> Cell: {contact.cell}</p>
                 </div>
                 <div className="dib">
+                    <MapContainer center={[contact.location.coordinates.latitude,
+                    contact.location.coordinates.longitude]} zoom={12}>
+                        <TileLayer
+                            url="https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png"
+                        />
+                    </MapContainer>
                 </div>
                 <div className="tc">
                     <a className="f6 link dim br3 ph3 pv2 mb2 dib white bg-dark-blue"
