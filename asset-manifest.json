@@ -1,16 +1,16 @@
 {
   "files": {
-    "main.css": "/UO269509/react-my-contacts/static/css/main.f343ab53.css",
-    "main.js": "/UO269509/react-my-contacts/static/js/main.11818d57.js",
-    "static/js/453.ff4034bb.chunk.js": "/UO269509/react-my-contacts/static/js/453.ff4034bb.chunk.js",
-    "static/media/Sagobi-d9GnV.ttf": "/UO269509/react-my-contacts/static/media/Sagobi-d9GnV.85e4080e71a269b82bdd.ttf",
-    "index.html": "/UO269509/react-my-contacts/index.html",
-    "main.f343ab53.css.map": "/UO269509/react-my-contacts/static/css/main.f343ab53.css.map",
-    "main.11818d57.js.map": "/UO269509/react-my-contacts/static/js/main.11818d57.js.map",
-    "453.ff4034bb.chunk.js.map": "/UO269509/react-my-contacts/static/js/453.ff4034bb.chunk.js.map"
+    "main.css": "/react-my-contacts/static/css/main.09183edc.css",
+    "main.js": "/react-my-contacts/static/js/main.5040ad31.js",
+    "static/js/453.ff4034bb.chunk.js": "/react-my-contacts/static/js/453.ff4034bb.chunk.js",
+    "static/media/Sagobi-d9GnV.ttf": "/react-my-contacts/static/media/Sagobi-d9GnV.85e4080e71a269b82bdd.ttf",
+    "index.html": "/react-my-contacts/index.html",
+    "main.09183edc.css.map": "/react-my-contacts/static/css/main.09183edc.css.map",
+    "main.5040ad31.js.map": "/react-my-contacts/static/js/main.5040ad31.js.map",
+    "453.ff4034bb.chunk.js.map": "/react-my-contacts/static/js/453.ff4034bb.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.f343ab53.css",
-    "static/js/main.11818d57.js"
+    "static/css/main.09183edc.css",
+    "static/js/main.5040ad31.js"
   ]
 }
