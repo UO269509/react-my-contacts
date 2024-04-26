@@ -1,7 +1,7 @@
 {
   "name": "react-my-contacts",
   "version": "0.1.0",
-  "homepage": "https://github.com/UO269509/react-my-contacts",
+  "homepage": "https://UO269509.github.io/react-my-contacts",
   "private": true,
   "dependencies": {
     "@capacitor/android": "^6.0.0",
