@@ -4,6 +4,7 @@ import Scroll from './components/Scroll';
 import { ErrorBoundary } from 'react-error-boundary'
 import ErrorFallback from './components/ErrorFallback';
 import Searcher from './components/Searcher';
+import ContactExport from './components/ContactExport';
 
 function App() {
   const [contacts, setContacts] = useState([]);
@@ -42,6 +43,7 @@ function App() {
       <header>
         <h1 className='f1'>My contacts</h1>
       </header>
+      <ContactExport contacts={contacts} />
       {contacts.length === 0 ? <h2 className='f2'>Loading...</h2> :
         <ErrorBoundary FallbackComponent={ErrorFallback}>
           <Searcher searchChange={onSearchChange} az={onAZ} za={onZA} />
